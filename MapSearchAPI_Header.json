@@ -1,0 +1,50 @@
+{
+  "Response Summary": {
+    "Request URL": "https://api2.realtor.ca/Listing.svc/PropertySearch_Post",
+    "Request Method": "POST",
+    "Status Code": "200 OK",
+    "Remote Address": "45.223.28.18:443",
+    "Referrer Policy": "strict-origin-when-cross-origin"
+  },
+  "Response Headers": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-origin": "https://www.realtor.ca",
+    "access-control-expose-headers": "Request-Context",
+    "arr-disable-session-affinity": "true",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "content-security-policy": "frame-ancestors 'none'",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Thu, 22 May 2025 17:09:14 GMT",
+    "r": "1",
+    "referrer-policy": "no-referrer",
+    "request-context": "appId=cid-v1:bfc3c1b2-9e1b-437e-9616-7d1636843cb5",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-cdn": "Imperva",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-iinfo": "5-107613213-107613831 PNYN RT(1747933721128 34294) q(0 0 0 -1) r(1 1) U24"
+  },
+  "Request Headers": {
+    ":authority": "api2.realtor.ca",
+    ":method": "POST",
+    ":path": "/Listing.svc/PropertySearch_Post",
+    ":scheme": "https",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9,hu;q=0.8",
+    "content-length": "287",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "cookie": "visid_incap_2269415=c4Qc/lKURGeSydntwiFMFrKy/WYAAAAAQUIPAAAAAAA+SOYTwdvKgmb/zJya5oIk; visid_incap_3057435=90QkYOcxRn+sCwNNP3K6kbWy/WYAAAAAQUIPAAAAAAALb/K6+nnoiKgdmtc2LisD; gig_bootstrap_3_mrQiIl6ov44s2X3j6NGWVZ9SDDtplqV7WgdcyEpGYnYxl7ygDWPQHqQqtpSiUfko=gigya-pr_ver4; visid_incap_3157676=hkxsgYj4QSSgsF1v1vrufHgXTmcAAAAAQUIPAAAAAADhV/61PoOsFNBIbfUuwVUe; visid_incap_2271082=UZKib6xtSAmhCNLzLwZkfnkXTmcAAAAAQUIPAAAAAADyNR+kwNs/VqMxKDi/tpXc; nlbi_2269415=2rKccILoekK43yEWCcuCgwAAAABq1HdploZCNGwn4Atk/RpW; incap_ses_349_2269415=ewhkaJyMm0cuaiN7+uXXBAFYL2gAAAAA5VHW4eiRfNHNx66+gfKzuA==; incap_ses_531_2269415=sWhCZlflx2L89kalA35eBwFYL2gAAAAAHCQ908FHajfJeeGis/oj9A==; incap_ses_531_3157676=WdHFWzii23Zf90alA35eBwFYL2gAAAAAubWWtTClZDziylthMlVPUQ==; _scor_uid=16a63e5c488d433bbae43b1d0f8aeb26; _gcl_au=1.1.2140311021.1747933186; _gid=GA1.2.74777359.1747933186; reese84=3:VnNszZF+QhqWdXGgVd1ePA==:z7FGwOXdy7TxtCEPoO8GdtEWUQhznmpBPziHMcZPo0NCedwzsNFpj1oyBz/WYH5sLDZMqYEsasjvH3EgN+zHCKX8vGoYtas5H2Vpul6VZrOuBL9q8SX+0Y0Nc8kvFNmYHMnQzoc5vLXBdj2uYSrOti0Uo7kD1y0BcANbomS1R8Jl0r5KqxoF97eS5krPLcqVXSbA9lAPHlLcwbRlAsgRXWuUhMrc/miWMjV6eO4REvJIcjTAAu3ykwggAyvkDhXYmZZ9v4GHkNWmmjz+O4ygzdGbP+AMSs+6YWcJ19RcR46l68muRWoase/kg0+QjkGAnjazW6QF1DhKvzz9643G++Q3qFKqwU4zf18N3qSZpB7u+Y+GqftyV6QJcWWUY4pZZq4mh0/7YZYi8y/lVJ1EAaFl1E1BVO0QciDjvxtworBxd/acn+AlxxSNePzcAo78mzP8YhtNYUBiAcSJy78Z1A==:Hf3MSRRCmhwo+iuNC+432J5ZmCE42H9R1eBKOd3PhWs=; _cc_id=18c7bc43ac47e5f95f8607cb2c7b4af8; panoramaId_expiry=1748019589670; panoramaId=b3f9c7719af464fbb3d865593a5da9fb927ac86940e1d2d2afd5f527f8469005; panoramaIdType=panoDevice; _sharedid=5254a987-35e2-4d4c-bb24-58a275458211; _sharedid_cst=zix7LPQsHA%3D%3D; _li_dcdm_c=.realtor.ca; _lc2_fpi=557b5c808652--01jvweznqdaw5g4jteehdw9qzv; _lc2_fpi_meta=%7B%22w%22%3A1747933189870%7D; FCNEC=%5B%5B%22AKsRol-QgqbScyzXq9fb3l5bXBoSh8O0f7hViRtrLO2LTw6e9jccqkc4nnolhx07dYyp432maMvaVirWFX7ZcbbJYv0ePr2R9ptOACLtlvOPI_wbrbP4OvFD7-g7xRUqFFxJzJgYP3zo0_IaIM7EciaFZIlEYe_4LQ%3D%3D%22%5D%5D; cto_bidid=5lMPdl9xUGglMkZldUhObGJxMFdJR0hqM1RyNVc3eFpzNVZacHlpQTlzJTJCMnc3RkRSeFhZJTJGNkdkN3hIV3hTJTJGN3JMdiUyRjFwRkNWYTAxJTJGM29ZeU5za29BbWpCbmdWdTRlbjZtSEEyJTJGNkRXTThuTHVzTjJnJTNE; cto_bundle=mnYnN19wRzFRekF6NUZnTENwYndja3l6S2RCOWwyQXA4N2N3ZWhIMnJDQTB4VXdVJTJGJTJGcUx1S3dhOXBQYlhuWU9PM2o2bUJmQTNLUmolMkJHJTJGSSUyQmtEWjdqSWkyZ3VJS1JzdWc5OXhkbHFuR0xVRHowWExwT1IlMkJxaHRUOUZsV1ViRzJGZ1ZxSktjUmtxeTQlMkY0ZDlGMExKckZHcTUwQzVsZWVUZlp3SW4wMmhuRVk3cDZ1REZkRDkyVWslMkZJenM2ZE9yMWs4OHhSSjlwUCUyRnd2ZSUyRmlKSjlYRnhzRm5vd0ElM0QlM0Q; nlbi_2271082=Bc/7UrgvKREGDv4WVPrQ3QAAAABptQdFpdHE5gCDeT7YODxW; incap_ses_531_2271082=K6PBIRy7TVtkF0elA35eBxhYL2gAAAAAAmKv0/f6jP34/+5zUX0sGA==; __qca=I0-668241001-1747933222138; _ga=GA1.1.991226065.1747933186; nlbi_2269415_2147483392=NEU+IPDtPBDi+GCECcuCgwAAAABjQ1s0eDCJygR4aWz95BIB; __gads=ID=a57491bcf7462e63:T=1747933191:RT=1747933721:S=ALNI_MYl8OcRhorMx_XRclDfiB5kdSS7jg; __gpi=UID=00001021504976e4:T=1747933191:RT=1747933721:S=ALNI_MZ0VZ7uYQ9RTe-Md0aIhaxOt0aBuw; __eoi=ID=36ea06d3b1ca5627:T=1747933191:RT=1747933721:S=AA-Afjbsqb7E2q9A6XiSomOdhqTI; _ga_Y07J3B53QP=GS2.1.s1747933186$o1$g1$t1747933730$j60$l0$h0$dmFkfoEv94kPg4LIrHZRw3LiP4hNSwCreuA; _gali=mapResultsTextCon",
+    "origin": "https://www.realtor.ca",
+    "priority": "u=1, i",
+    "referer": "https://www.realtor.ca/",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+  }
+}

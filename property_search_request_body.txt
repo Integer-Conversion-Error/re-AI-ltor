@@ -1,0 +1,1 @@
+ZoomLevel=15&LatitudeMax=45.43411&LongitudeMax=-75.68209&LatitudeMin=45.41715&LongitudeMin=-75.72110&Sort=6-D&PropertyTypeGroupID=1&TransactionTypeId=2&PropertySearchTypeId=0&Currency=CAD&IncludeHiddenListings=false&RecordsPerPage=12&ApplicationId=1&CultureId=1&Version=7.0&CurrentPage=1

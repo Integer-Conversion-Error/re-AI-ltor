@@ -1,0 +1,15 @@
+{
+  "realtor_api_defaults": {
+    "Sort": "6-D",
+    "PropertyTypeGroupID": "1",
+    "TransactionTypeId": "2",
+    "PropertySearchTypeId": "0",
+    "Currency": "CAD",
+    "IncludeHiddenListings": false,
+    "ApplicationId": "1",
+    "CultureId": "1",
+    "Version": "7.0",
+    "DefaultRecordsPerPage": 12,
+    "DefaultZoomLevel": 15
+  }
+}

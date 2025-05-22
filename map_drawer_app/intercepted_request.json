@@ -1,0 +1,37 @@
+{
+    "url": "https://api2.realtor.ca/Listing.svc/PropertySearch_Post",
+    "headers_before_cookie": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Origin": "https://www.realtor.ca",
+        "Referer": "https://www.realtor.ca/",
+        "Sec-Ch-Ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    },
+    "payload_params": {
+        "ZoomLevel": 15,
+        "LatitudeMax": 45.43411,
+        "LongitudeMax": -75.68209,
+        "LatitudeMin": 45.41715,
+        "LongitudeMin": -75.7211,
+        "Sort": "6-D",
+        "PropertyTypeGroupID": "1",
+        "TransactionTypeId": "2",
+        "PropertySearchTypeId": "0",
+        "Currency": "CAD",
+        "IncludeHiddenListings": "false",
+        "RecordsPerPage": 5,
+        "ApplicationId": "1",
+        "CultureId": "1",
+        "Version": "7.0",
+        "CurrentPage": 1
+    },
+    "payload_str": "ZoomLevel=15&LatitudeMax=45.43411&LongitudeMax=-75.68209&LatitudeMin=45.41715&LongitudeMin=-75.7211&Sort=6-D&PropertyTypeGroupID=1&TransactionTypeId=2&PropertySearchTypeId=0&Currency=CAD&IncludeHiddenListings=false&RecordsPerPage=5&ApplicationId=1&CultureId=1&Version=7.0&CurrentPage=1"
+}

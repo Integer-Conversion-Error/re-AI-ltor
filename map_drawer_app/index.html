@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Draw Polygon on Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.draw@1.0.4/dist/leaflet.draw.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <div class="main-content">
+        <div class="container">
+            <h1>Polygon Map Drawer</h1>
+            <div id="mapid"></div>
+            <div class="input-group">
+                <label for="shape-name">Shape Name:</label>
+                <input type="text" id="shape-name" placeholder="e.g., My Property">
+            </div>
+            <div class="slider-container">
+                <label for="rectangle-count">Number of Rectangles:</label>
+                <input type="range" id="rectangle-count" min="2" max="30" value="10">
+                <span id="rectangle-count-value">10</span>
+            </div>
+            <button id="process-button">Process Shape</button>
+            <button id="send-request-button">Send Realtor.ca Request</button>
+            <div id="results"></div>
+        </div>
+
+        <div class="sidebar">
+            <h2>Saved Shapes <span class="visibility-toggle"><i class="fas fa-eye"></i><i class="fas fa-eye-slash" style="display:none;"></i></span></h2>
+            <ul class="shape-list" id="shape-list">
+                <!-- Shape list items will be dynamically added here -->
+            </ul>
+            <div class="tabs-content" id="tabs-content">
+                <!-- Tab content will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
