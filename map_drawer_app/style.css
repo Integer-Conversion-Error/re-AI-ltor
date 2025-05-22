@@ -374,3 +374,13 @@ body {
 .leaflet-draw-actions .leaflet-draw-actions-bottom {
     margin-top: 10px; /* Space above the "Cancel" button */
 }
+
+/* Hide all draw buttons by default */
+.leaflet-draw-toolbar a {
+    display: none !important;
+}
+
+/* Show only the polygon draw button */
+.leaflet-draw-toolbar a.leaflet-draw-draw-polygon {
+    display: block !important; /* Or inline-block, depending on desired layout */
+}
